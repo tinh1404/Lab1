@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>Thi Trung Tính</title>
+        <link rel="stylesheet" href="./themify-icons/themify-icons/themify-icons.css">
+        <style>
+            body {
+                margin: 0 auto;
+                height: 0;
+                background-color: rgb(226, 130, 255);
+            }
+            .container {
+                width: 1200px;  
+                margin:0 auto;
+                border: 1px solid black;
+            }
+            .container > header {
+                height: 400px;
+                background-image: url(img/hình-3-3-1-1536x756.jpg);
+                background-size: 100% 100%;
+            }
+            .container > nav{
+                height: 45px;
+                background: rgb(255, 123, 75);
+                border: 1px solid black;
+            }
+            .container nav a:hover {
+                cursor: pointer;
+                color: rgb(56, 245, 195);
+            }
+            .container > main > article {
+                width: 75%;
+                height: 400px;
+                float: left;
+                background: rgb(242, 237, 162);  
+                overflow: scroll;    
+            }
+            .container >main >article>div{
+                text-align: justify;
+                font-size: 20px;
+                margin: 6px;   
+            }
+            .container >main >article>div>h1,
+            .container >main >article>div>h2 {
+                color: red;
+            }
+            .container >main >article>img{
+                height: 300px;
+                width: 530px;
+                position: relative;
+                left: 200px;   
+            }
+            .container > main > aside {
+                width: 25%;
+                height: 400px;
+                float: right;
+                background: rgb(236, 231, 231);
+                overflow: scroll;
+            }
+            .container > main > aside > div > img {
+                width: 250px;
+                display: block;
+                margin: 13px auto;
+                border: 1px solid gray;
+                border-radius: 2px;
+                box-shadow: 0 0 10px rgb(76, 76, 234);
+            }
+            .container > footer {
+                height: 60px;
+                clear: both;
+                background: rgb(221, 250, 250);
+                border-top: 5px double orangered;
+            }
+            .container > footer > b {
+                font-size: 20px;
+                float: right;
+                line-height: 60px;
+                margin-right: 10px;
+            }
+            .container nav  a {
+                color: white;
+                text-decoration: none;
+                line-height: 45px;
+                font-size: 20px;
+                margin: 0 10px 0 10px;
+            }
+            .container aside ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            .container aside ul li {
+                border-bottom: 1px solid darkcyan;
+                padding: 10px 0 10px 30px;
+            }
+            .container aside ul li a {
+                color: darkgreen;
+                text-decoration: none;
+                font-size: 20px;
+            }
+            .container aside ul li a:hover {
+                color: red;
+            }
+            .ti-arrow-circle-right::before {
+                margin: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header></header>
+            <nav>
+                <a href="home.html" target="page">Trang chủ</a> |
+                <a href="gioithieu.html" target="page">Giới thiệu</a> |
+                <a href="lienhe.html" target="page">Liên hệ</a> |
+                <a href="gopy.html" target="page">Góp ý</a> |
+                <a href="tinhot.html" target="page">Hỏi đáp</a>
+            </nav>
+            <main>
+                <article>
+                    <iframe name="page" width="100%" height="100%" src="" frameborder="0"></iframe>
+                </article>
+                <aside>
+                    <ul>
+                        <li class="ti-arrow-circle-right"><a href="#">Máy tính xách tay</a></li>
+                        <li class="ti-arrow-circle-right"><a href="#">Điện thoại di động</a></li>
+                        <li class="ti-arrow-circle-right"><a href="#">Máy quay phim</a></li>
+                        <li class="ti-arrow-circle-right"><a href="#">Máy chụp ảnh</a></li>  
+                    </ul>
+                    <div>
+                        <img src="img/GS.008504_FEATURE_93851.jpg" alt="">
+                        <img src="img/4.png" alt="">
+                        <img src="img/tam-quan-trong-cua-may-tinh-trong-thoi-dai-4-0-1.jpg" alt="">
+                        <img src="img/AX700.jpg" alt="">
+                    </div>
+                </aside>
+            </main>
+            <footer><b>Phát triển bởi Thi Trung Tính</b></footer>
+        </div>
+    </body>
+</html>
